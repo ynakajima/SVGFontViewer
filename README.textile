@@ -1,0 +1,17 @@
+h1. SVGFontViewer
+
+h2. Overview
+
+SVGFontViewerはSVGフォントを閲覧するためのウェブアプリケーションです。
+含まれているグリフの一覧と詳細を閲覧できます。
+
+SVGFontViewer is a tool for SVG font to see in a browser.
+You can preview the list of SVG fonts and glyphs details.
+
+h2. Screenshot
+
+!http://ynakajima.net/SVGFontViewer/img/preview-v0.4_thumb.png!:http://ynakajima.net/SVGFontViewer/img/preview-v0.4.png
+
+h2. Demo
+
+"DEMO v0.4":http://ynakajima.net/SVGFontViewer/SVGFontViewer-v0.4/index.xhtml
