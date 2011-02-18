@@ -1,13 +1,12 @@
 /*!
  * SVGFontViewer v0.4
- * http://svgfontviewer.googlecode.com/
+ * https://github.com/ynakajima/SVGFontViewer
  *
  * Copyright 2010, Yuhta Nakajima<ynakajima@mac.com>
  * Dual licensed under the MIT or GPL Version 2 licenses.
- * http://svgfontviewer.googlecode.com/hg/GPL-LICENSE.txt
- * http://svgfontviewer.googlecode.com/hg/MIT-LICENSE.txt
+ * https://github.com/ynakajima/SVGFontViewer/blob/master/GPL-LICENSE.txt
+ * https://github.com/ynakajima/SVGFontViewer/blob/master/MIT-LICENSE.txt
  *
- * Date: 201008220457
  */
 
 /**

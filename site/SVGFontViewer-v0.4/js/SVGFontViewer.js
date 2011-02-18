@@ -1,13 +1,12 @@
 /*!
  * SVGFontViewer v0.4
- * http://svgfontviewer.googlecode.com/
+ * https://github.com/ynakajima/SVGFontViewer
  *
  * Copyright 2010, Yuhta Nakajima<ynakajima@mac.com>
  * Dual licensed under the MIT or GPL Version 2 licenses.
- * http://svgfontviewer.googlecode.com/hg/GPL-LICENSE.txt
- * http://svgfontviewer.googlecode.com/hg/MIT-LICENSE.txt
+ * https://github.com/ynakajima/SVGFontViewer/blob/master/GPL-LICENSE.txt
+ * https://github.com/ynakajima/SVGFontViewer/blob/master/MIT-LICENSE.txt
  *
- * Date: 201008220457
  */
 
 /**
@@ -88,7 +87,7 @@ SVGFontViewer.init = function(param) {
 		self.svgDocument = svgLoader.content;
 		self.svg = document.importNode(self.svgDocument.getElementsByTagName("svg")[0], true);
 		self.svg.style.display = "none";
-		document.body.appendChild(self.svg);
+		//document.body.appendChild(self.svg);
 		
 		self.glyphs = self.svg.getElementsByTagName('glyph');
 
@@ -383,7 +382,7 @@ SVGFontViewer.GlyphView.prototype.showGuide = function() {
  */
 SVGFontViewer.GlyphView.prototype.display = function(glyph) {
 
-	this.glyph = glyph.cloneNode(true);
+	this.glyph = glyph;//.cloneNode(true);
 	var d = (this.glyph.getAttribute("d"))? this.glyph.getAttribute("d") : "M 0 0";
 	this.path.setAttribute("d", d);
 	
