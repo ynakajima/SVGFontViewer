@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
+	<title>SVG Font Viewer - MplusC</title>	
+	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.1.2/build/cssreset/reset-min.css" />
+	<link rel="stylesheet" type="text/css" href="./css/style.css" />
+	<script type="text/javascript" src="./js/TouchScroller.js"></script>
+	<script type="text/javascript" src="./js/SVGFontViewer.js"></script>
+	<script type="text/javascript">
+		
+		window.onload = function(){
+			
+			//for iPad and iPhone
+			new TouchScroller(document.getElementById('glyphList'));	
+			var param = {
+				svgFontPath: "../../fonts/mplus1cblack.svg"	
+			};
+			
+			SVGFontViewer.init(param);
+			
+		}
+		
+	</script>
+</head>
+<body>
+	<div id="header">
+		<h1>SVG Font Viewer - MplusC</h1>
+	</div>
+	<div id="glyphList">
+		<h2>Glyphs</h2>
+		<ul id="glyphs">
+				
+		</ul>
+	</div>
+	
+	<div id="glyphView">
+		<h2>GlyphViewer</h2>
+		<div id="glyph"></div>
+	</div>
+	
+	<div id="footer">
+		<address>Copyright 2010 ynakajima Dual licensed under the MIT or GPL Version 2 licenses.   <a href="http://mplus-fonts.sourceforge.jp/mplus-outline-fonts/index-en.html#license">M+ FONTS LICENSE.</a></address>
+	</div>
+
+</body>
+</html>

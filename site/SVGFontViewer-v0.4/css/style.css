@@ -1,0 +1,92 @@
+/**
+ * html,body
+ */
+html,body {
+	font-family: sans-serif;
+	background-color: #999;
+}
+
+h2 {
+	display: none;	
+}
+
+/**
+ * header
+ */
+#header {
+	height: 20px;
+	padding: 5px;
+	border-bottom: 4px solid #999;
+	background-color: #eee;
+	color: #666;
+}
+
+
+/**
+ * glyphList
+ */
+ 
+#glyphList {
+	float: left;
+	width: 180px;
+	padding: 10px;
+	height: 100%;
+	background-color: #fff;
+	overflow: auto;
+}
+
+#glyphList li {
+	float: left;
+	width: 80px;
+	height: 80px;
+	background-color: #eee;
+	border-bottom: 2px solid #fff;
+	border-right: 2px solid #fff;
+	cursor: pointer;
+}
+
+#glyphList li dt {
+	width: 76px;
+	font-size: 10px;
+	background-color: #ccc;
+	padding: 2px;
+	text-align: center;
+}
+
+#glyphList li dd {
+	padding-top: 15px;
+	width: 30px;
+	height: 40px;
+	margin: 0 auto;
+}
+
+/**
+ * glyphView
+ */
+#glyphView {
+	margin-left: 200px;
+	margin-right: -200px;
+	padding: 10px;
+	border-left: 5px solid #eee;
+	background-color: #eee;
+	overflow: auto;
+	overflow-x: hidden;
+}
+
+#glyph {
+	width: 700px;
+	height: 850px;
+	margin: 0 auto;	
+}
+
+/**
+ * footer
+ */
+#footer {
+	clear: both;
+	height: 20px;
+	padding: 10px;
+	padding-bottom: 0px;
+	font-size: 10px;
+	backgrond-color: #999;
+}
