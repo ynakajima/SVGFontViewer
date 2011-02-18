@@ -14,4 +14,4 @@ h2. Screenshot
 
 h2. Demo
 
-"DEMO v0.4":http://ynakajima.net/SVGFontViewer/SVGFontViewer-v0.4/index.xhtml
+<a href='http://ynakajima.net/SVGFontViewer/SVGFontViewer-v0.4/index.xhtml' target='_blank'>DEMO v0.4</a>
